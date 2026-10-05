@@ -1,0 +1,8 @@
+{
+  "jade.campfires.burn_time": "Burns for: %s",
+  "jade.campfires.logs": "Logs: %s/4",
+  "jade.campfires.embers": "Embers: %s",
+  "jade.campfires.unlit": "Unlit: %s/4 logs",
+  "jade.campfires.burnt": "Burnt out",
+  "jade.campfires.igniting": "Lighting: %s%%"
+}

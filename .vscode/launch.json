@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - campfires",
+        "order": 0
+      },
+      "projectName": "campfires",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\svenj\\AppData\\Roaming\\PrismLauncher\\instances\\WorldBlock\\custom_mods\\campfires\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\svenj\\AppData\\Roaming\\PrismLauncher\\instances\\WorldBlock\\custom_mods\\campfires\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcampfires%%C:\\Users\\svenj\\AppData\\Roaming\\PrismLauncher\\instances\\WorldBlock\\custom_mods\\campfires\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

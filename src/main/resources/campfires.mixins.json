@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.worldblock.campfires.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlockAccessor",
+    "CampfireBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

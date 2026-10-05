@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "${mod_name}"
+authors = "${mod_author}"
+description = '''
+Campfires now burn out. Logs burn down into glowing embers and finally into cold charred logs. Add a log to replace an ember or burnt log with a fresh one, rain douses lit campfires, and breaking a campfire returns its remaining unburnt logs. Integrates with Cold Sweat, Simple Clouds and Jade.
+Ember and burnt log models and textures are adapted from Burnt Basic by Pixelbank (MIT license).
+'''
+
+[[mixins]]
+config="campfires.mixins.json"
+
+[[dependencies.${mod_id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
