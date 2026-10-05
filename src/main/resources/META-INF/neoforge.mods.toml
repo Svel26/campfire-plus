@@ -7,6 +7,7 @@ modId = "${mod_id}"
 version = "${mod_version}"
 displayName = "${mod_name}"
 authors = "${mod_author}"
+logoFile = "logo.png"
 description = '''
 Campfires now burn out. Logs burn down into glowing embers and finally into cold charred logs. Add a log to replace an ember or burnt log with a fresh one, rain douses lit campfires, and breaking a campfire returns its remaining unburnt logs. Integrates with Cold Sweat, Simple Clouds and Jade.
 Ember and burnt log models and textures are adapted from Burnt Basic by Pixelbank (MIT license).

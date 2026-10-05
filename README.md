@@ -1,5 +1,9 @@
 # Campfire+
 
+<p align="center">
+  <img src="logo.png" alt="Campfire+ Logo" width="200"/>
+</p>
+
 A realistic campfire overhaul for Minecraft 1.21.1 (NeoForge). Campfires now burn out over time, require fuel management, interact dynamically with weather, and integrate with survival mods.
 
 ## 🔥 Features
